@@ -62,10 +62,6 @@ The client calls `asset.accept(visitor)`. The concrete element's `accept` method
 
 For example, `Satellite.accept(visitor)` calls `visitor.visitSatellite(this)`. This selects the operation based on both the concrete element type and the concrete visitor implementation.
 
-## ChatGPT usage
-
-ChatGPT was used as an assistance tool for understanding the assignment requirements, organizing the project structure, and reviewing the implementation. The student should be able to explain and defend every class and method.
-
 ## Technologies
 
 - Java
